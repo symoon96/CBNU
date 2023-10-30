@@ -331,13 +331,14 @@
     /* 성과(Pride) */
     .pride .headline .txt br {display: none;}
     .pride .pride-fruitage ul {background: url('../img/deco_pride03.png') no-repeat right bottom 26rem; background-size: 24rem;}
-    .pride .pride-fruitage ul li {flex-direction: column;}
+    .pride .pride-fruitage ul li {flex-direction: column; flex-wrap: wrap;}
     .pride .pride-fruitage ul li:nth-child(2) {background: url('../img/deco_pride01.png') no-repeat right top 3.6rem; background-size: 12.6rem;}
     .pride .pride-fruitage ul li + li {padding-top: 4rem;}
     .pride .pride-fruitage ul li > .year {border-bottom: 0; padding-top: 0; padding-bottom: 0;}
     .pride .pride-fruitage ul li > .cont,
     .pride .pride-fruitage ul li > .cont:has(.article) .article {flex-direction: column;}
     .pride .pride-fruitage ul li:nth-last-child(2) > .cont .rank {display: none;}
+    .pride .pride-fruitage ul li > .cont .article {width: 100%;}
     .pride .pride-newsletter .newsletter-list ul {flex-wrap: wrap;}
     .pride .pride-sustainability > .txt br {display: none;}
     .pride .pride-sustainability .sustainability-list ul li {flex-direction: column;}
@@ -404,9 +405,20 @@
 @media screen and (max-width: 640px) {
     /* 프롤로그(Prologue) */
     .prologue .lang-list ul {gap: 0 0; justify-content: space-between;}
+
     /* 교육(Promise) */
+    .promise .division > .inner {margin-top: 18rem;}
+    .promise .job-area .cont:first-of-type .deco {top: -28rem;}
     .promise .result-area .result-best {width: 100%; flex-direction: column; align-items: flex-start;}
     .promise .result-area .result-best::after {left: auto; right: 0;}
+    .promise .job-area .cont:nth-of-type(2) .img-area {padding-right: 12.8rem}
+    .promise .job-area .cont:nth-of-type(2) .deco {bottom: -3rem;}
+    .promise .interact-area {padding-bottom: 10rem;}
+    .promise .interact-area .deco {bottom: -15rem; z-index: 1;}
+    .promise .researcher-area .deco {bottom: -24rem;}
+
+    /* 총장인사말(President) */
+    .president .headline .container {background: url('../img/img_president.png') no-repeat left -5rem bottom; background-size: 37.5rem;}
 
     /* 캠퍼스(Campus) */
     .campus {background: url('../img/bg_campus.png') no-repeat calc(50% - 16rem) 22.4rem; background-size: 58.7rem;}
@@ -416,8 +428,8 @@
     .campus .campus-appendage ul li {width: 50%}
 
     /* 학업(Academics) */
-    .academics .cnt-area ul {flex-wrap: wrap; flex-direction: column; height: 19.5rem; justify-content: flex-start; gap: 3rem 4rem;}
-    .academics .cnt-area ul li {width: 50%; text-align: left;}
+    .academics .cnt-area ul {flex-wrap: wrap; flex-direction: column; height: 19.5rem; justify-content: flex-start; gap: 3rem 2rem;}
+    .academics .cnt-area ul li {width: calc(50% - 0.5rem); text-align: left;}
     .academics .headline + .division .cnt-area ul {height: 34rem;}
     .academics .headline + .division .cnt-area ul li {text-align: left;}
     .academics .headline + .division .cnt-area ul li .tit {margin-top: 1rem;}
