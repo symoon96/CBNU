@@ -21,7 +21,7 @@
 #header h1 {text-align: center; font-size: 2rem; font-weight: 700; line-height: 1.8; color: #5e5d5c; padding-top: 1.7rem;}
 
 #header .btn-menu {display: block; position: absolute; top: 2.4rem; right: 5rem; width: 2.3rem; height: 2.3rem; transform: rotate(0deg); transition: .5s ease-in-out;}
-#header .btn-menu span {display: block; position: absolute; height: 3px; width: 100%; background: #bc1c55; opacity: 1;left: 0; transform: rotate(0deg); transition: .25s ease-in-out;}
+#header .btn-menu span {display: block; position: absolute; height: 0.3rem; width: 100%; background: #bc1c55; opacity: 1;left: 0; transform: rotate(0deg); transition: .25s ease-in-out;}
 #header .btn-menu span:nth-child(1) {top: 0.4rem; transform-origin: left center;}
 #header .btn-menu span:nth-child(2) {top: 1rem; transform-origin: left center;}
 #header .btn-menu span:nth-child(3) {top: 1.6rem; transform-origin: left center;}
@@ -32,8 +32,8 @@
 .gnb {position: absolute; top: 7rem; width: 30rem; height: calc(100vh - 7rem); right: 0; padding: 6rem 3rem; overflow: auto; background-color: #ffffff; z-index: 1; transform: translateX(100%); transition: all .5s;}
 .gnb.on {transform: translateX(0);}
 .gnb ul {padding-left: 1rem;}
-.gnb ul li + li {padding-top: 25px; margin-top: 25px; border-top: 1px solid #5e5d5c;}
-.gnb ul li a {font-size: 16px; font-weight: 800; color: #b72654;}
+.gnb ul li + li {padding-top: 2.5rem; margin-top: 2.5rem; border-top: 1px solid #5e5d5c;}
+.gnb ul li a {font-size: 1.6rem; font-weight: 800; color: #b72654;}
 
 .dim {position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; background: #000000; opacity: 0.6;}
 
@@ -144,4 +144,11 @@
     .container .inner {max-width: 82rem; margin-left: auto; margin-right: auto;}
 
     .has-padding{}
+}
+
+@media screen and (max-width:960px) {
+    /*-------------------------------------------------------------------
+        @content
+    -------------------------------------------------------------------*/
+    .container {padding-left: 2rem; padding-right: 2rem;}
 }
