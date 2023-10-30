@@ -2,7 +2,8 @@
 .prologue {padding-top: 4.5rem; padding-bottom: 5.2rem; background: url('../img/bg_prologue_pc.png') no-repeat center; background-size: cover; min-width: 100vw; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;}
 .prologue .txt-head {font-weight: 900; color: #ffffff; line-height: 1; font-size: 2rem; letter-spacing: 0.02em;}
 .prologue .container {display: flex; align-items: center; justify-content: center; flex: 1 0;}
-.prologue .ani-text img:first-child {margin-bottom: -1.8rem;}
+.prologue .ani-text img:nth-of-type(1) {margin-bottom: -1.8rem; width: 65.6rem;}
+.prologue .ani-text img:nth-of-type(2) {width: 66.1rem;}
 .prologue .lang-list {margin-top: 19.4rem;}
 .prologue .lang-list ul {display: flex; align-items: center; justify-content: center; gap: 0 11rem;}
 .prologue .lang-list ul li a {display: block; width: 10rem; height: 12.1rem; padding-top: 3.8rem; text-align: center; font-weight: 700; color: #ffffff; font-size: 2.2rem; background: url('../img/bg_prologue_link.png') no-repeat center; background-size: 100%;}
@@ -402,6 +403,9 @@
     .history .history-list ul li {flex-direction: column;}
 }
 @media screen and (max-width: 640px) {
+    .prologue .ani-text img:nth-of-type(1) {width: 65.6rem;}
+    .prologue .ani-text img:nth-of-type(2) {width: 66.1rem;}
+    
     /* 교육(Promise) */
     .promise .result-area .result-best {width: 100%; flex-direction: column; align-items: flex-start;}
     .promise .result-area .result-best::after {left: auto; right: 0;}
