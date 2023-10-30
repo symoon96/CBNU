@@ -1,0 +1,425 @@
+/* 프롤로그(Prologue) */
+.prologue {padding-top: 4.5rem; padding-bottom: 5.2rem; background: url('../img/bg_prologue_pc.png') no-repeat center; background-size: cover; min-width: 100vw; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.prologue .txt-head {font-weight: 900; color: #ffffff; line-height: 1; font-size: 2rem; letter-spacing: 0.02em;}
+.prologue .container {display: flex; align-items: center; justify-content: center; flex: 1 0;}
+.prologue .ani-text img:first-child {margin-bottom: -1.8rem;}
+.prologue .lang-list {margin-top: 19.4rem;}
+.prologue .lang-list ul {display: flex; align-items: center; justify-content: center; gap: 0 11rem;}
+.prologue .lang-list ul li a {display: block; width: 10rem; height: 12.1rem; padding-top: 3.8rem; text-align: center; font-weight: 700; color: #ffffff; font-size: 2.2rem; background: url('../img/bg_prologue_link.png') no-repeat center; background-size: 100%;}
+
+/* 비전(Vision) */
+.vision .container {background: url('../img/bg_vision.png') no-repeat center top; padding-top: 18rem; padding-bottom: 12.8rem;}
+.vision .headline img {margin: 0 auto; width: 49.1rem}
+.vision .txt-summary {font-size: 2rem; line-height: 1.7; text-align: center; color: #ffffff; margin-top: 6.7rem;}
+.vision .vision-info {margin-top: 17.4rem; background-color: rgba(0, 0, 0, 0.4); padding-top: 6.3rem; padding-bottom: 6rem;}
+.vision .vision-info .txt-info {font-size: 3rem; line-height: 1; color: #ffffff; font-weight: 700; text-align: center;}
+.vision .vision-info img {margin: 9.7rem auto 0; width: 77.3rem;}
+
+/* 캠퍼스(Campus) */
+.campus {padding-top: 17rem; background: url('../img/bg_campus.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
+.campus .healine .tit {text-align: center; font-size: 4rem; line-height: 1.45; color: #5e5d5c; font-weight: 700;}
+.campus .healine .txt {text-align: center; font-size: 2rem; line-height: 1.7; color: #5e5d5c; font-weight: 500; margin-top: 3rem;}
+.campus .healine .campus-view {margin-top: 12.8rem; margin-right: 11.9rem; margin-left: auto; width: 37.1rem;}
+.campus .healine .campus-view .btn-view {margin-top: 3rem; padding: 1rem 1rem; margin-left: -1rem;}
+.campus .healine .campus-view .btn-view span {display: block; height: 3rem; width: 22rem;}
+.campus .campus-info {margin-top: 19.5rem; padding-bottom: 10.5rem;}
+.campus .campus-info ul li + li {margin-top: 9.5rem}
+.campus .campus-info ul li .text-area {width: 50.5rem; transform: translateY(50%); margin: 0 auto; text-align: center; color: #ffffff; padding: 2.5rem 0;}
+.campus .campus-info ul li:nth-child(1) .text-area {background-color: #b72654;}
+.campus .campus-info ul li:nth-child(2) .text-area {background-color: #5e5d5c;}
+.campus .campus-info ul li:nth-child(3) .text-area {background-color: #c6a86f;}
+.campus .campus-info ul li:nth-child(4) .text-area {background-color: #203f69;}
+.campus .campus-info ul li .text-area .tit {font-size: 1.8rem; font-weight: 700;}
+.campus .campus-info ul li .text-area .txt {font-size: 1.7rem; line-height: 1.353; margin-top: 0.4rem;}
+.campus .campus-appendage {border-top: 1px solid #5e5d5c; padding-top: 9rem; padding-bottom: 20rem;}
+.campus .campus-appendage .division + .division {margin-top: 9.5rem;}
+.campus .campus-appendage .division > .tit {width: 50.5rem; height: 7rem; background-color: #eeeeee; margin: 0 auto; text-align: center; line-height: 7rem; font-size: 1.8rem; color: #5e5d5c; font-weight: 700;}
+.campus .campus-appendage .division > .cont {margin-top: 4.5rem;}
+.campus .campus-appendage ul {display: flex; flex-direction: column; flex-wrap: wrap; height: 36.5rem; align-content: space-between;}
+.campus .campus-appendage ul li {font-size: 1.7rem; color: #5e5d5c; line-height: 1.648;}
+.campus .campus-appendage .txt {text-align: center; font-size: 1.7rem; color: #5e5d5c; line-height: 1.648;}
+.campus .campus-appendage img {margin: 3.5rem auto 0;}
+.campus .campus-organization {background: #eeeeee; padding: 10.5rem 0 25.5rem;}
+.campus .campus-organization .summary img {margin: 0 auto; width: 16.2rem;}
+.campus .campus-organization .summary .tit {font-size: 3rem; line-height: 1; text-align: center; color: #b72654; margin-top: 6.2rem; font-weight: 700;}
+.campus .campus-organization .summary .txt {margin-top: 1.5rem; line-height: 1; font-size: 3rem; font-weight: 700; color: #b72654; text-align: center;}
+.campus .campus-organization .summary .txt strong {font-size: 10rem; line-height: 1; display: inline-block;}
+.campus .campus-organization .row {border-top: 1px solid #5e5d5c; display: flex; align-items: center; justify-content: space-between; padding: 4.2rem 0 4.5rem;}
+.campus .campus-organization .summary + .row {margin-top: 8.5rem;}
+.campus .campus-organization .row .col { text-align: center; }
+.campus .campus-organization .row .col::after {display: block; clear: both; content: "";}
+.campus .campus-organization .row .col .article {float: left;}
+.campus .campus-organization .row .col .article + .article {margin-left: 5.4rem; padding-left: 4.8rem; border-left: 1px dashed #8e8d8d;}
+.campus .campus-organization .row .col .count {font-size: 7rem; line-height: 1; font-weight: 700; color: #5e5d5c;}
+.campus .campus-organization .row .col .tit {font-size: 2rem; line-height: 1.3; color: #5e5d5c;}
+.campus .campus-organization .member {border-top: 1px solid #5e5d5c; padding-top: 5.2rem; overflow: hidden;}
+.campus .campus-organization .member dl {float: left; width: 50%; border-top: 1px solid #5e5d5c; padding-bottom: 4rem; padding-top: 4.8rem;}
+.campus .campus-organization .member dl:nth-child(even) {border-left: 1px solid #5e5d5c}
+.campus .campus-organization .member dl:nth-child(-n + 2) {border-top: 0;}
+.campus .campus-organization .member dl:nth-last-child(2),
+.campus .campus-organization .member dl:nth-last-child(1) { padding-bottom: 0;}
+.campus .campus-organization .member dl dt {font-size: 2rem; line-height: 1; color: #595757; text-align: center;}
+.campus .campus-organization .member dl dd {margin-top: 2rem;}
+.campus .campus-organization .member dl dd img {width: 18.5rem; margin: 0 auto;}
+.campus .campus-organization .member dl dd .txt {margin-top: 3rem; text-align: center; color: #bc1c55; line-height: 1; font-weight: 700; font-size: 3rem;}
+.campus .campus-organization .member dl dd .txt strong {font-size: 7rem; line-height: 1; display: inline-block;}
+
+/* 성과(Pride) */
+.pride {padding-top: 17rem; padding-bottom: 20rem;}
+.pride .headline .tit {font-size: 4rem; text-align: center; color: #5e5d5c; font-weight: 700; line-height: 1.45;}
+.pride .headline .tit .year {font-size: 1.6rem; line-height: 1.75; font-weight: 400; display: block;}
+.pride .headline .txt {font-size: 2rem; line-height: 1.7; text-align: center; color: #5e5d5c; margin-top: 4rem;}
+.pride .pride-fruitage {margin-top: 14rem;}
+.pride .pride-fruitage ul {border-bottom: 1px solid #5e5d5c; padding-bottom: 4rem; background: url('../img/deco_pride03.png') no-repeat left 11.5rem bottom 26rem; background-size: 24rem;}
+.pride .pride-fruitage ul li {display: flex; align-items: stretch;}
+.pride .pride-fruitage ul li > .year,
+.pride .pride-fruitage ul li > .cont:not(.cont:has(.article)),
+.pride .pride-fruitage ul li > .cont:has(.article) .article {border-bottom: 1px dashed #949392; padding-top: 3.5rem; padding-bottom: 4.5rem;}
+.pride .pride-fruitage ul li:last-child > .year,
+.pride .pride-fruitage ul li:last-child > .cont:not(.cont:has(.article)),
+.pride .pride-fruitage ul li:last-child > .cont:has(.article) .article {border-bottom: 0;}
+.pride .pride-fruitage ul li:first-child > .year,
+.pride .pride-fruitage ul li:first-child > .cont > * {border-top: 0;}
+.pride .pride-fruitage ul li > .year {width: 18rem; flex: none; padding-top: 4rem; line-height: 1; font-size: 3rem; font-weight: 700; color: #595757;}
+.pride .pride-fruitage ul li > .cont {flex: 1 0; display: flex; }
+.pride .pride-fruitage ul li > .cont:has(.article) {display: block;}
+.pride .pride-fruitage ul li > .cont:has(.article) .article {display: flex;}
+.pride .pride-fruitage ul li > .cont .rank {width: 23rem; font-size: 3rem; color: #bc1c55; font-weight: 700; line-height: 1;}
+.pride .pride-fruitage ul li > .cont .rank strong {font-size: 10rem; line-height: 1; display: inline-block;}
+.pride .pride-fruitage ul li > .cont .txt-area {padding-top: 1rem; flex: 1 0;}
+.pride .pride-fruitage ul li > .cont .txt-area .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c;}
+.pride .pride-fruitage ul li:nth-child(2) {background: url('../img/deco_pride01.png') no-repeat 14rem 21rem; background-size: 12.6rem;}
+.pride .pride-fruitage ul li:nth-child(2) .cont .article:nth-child(2) {background: url('../img/deco_pride02.png') no-repeat right 0 top 3.6rem; background-size: 11.8rem;}
+.pride .pride-newsletter {position: relative; background: #eeeeee; margin-top: 12rem; padding: 12.5rem 2rem 5rem;}
+.pride .pride-newsletter .deco {position: absolute; top: -16rem; left: 50%; transform: translateX(-50%);}
+.pride .pride-newsletter .tit {font-size: 4rem; font-weight: 700; line-height: 1; color: #595757; text-align: center;}
+.pride .pride-newsletter .newsletter-list {margin-top: 6.5rem;}
+.pride .pride-newsletter .newsletter-list ul {display: flex; align-items: center; justify-content: center; gap: 3rem 10.5rem;}
+.pride .pride-newsletter .newsletter-list ul li a {width: 18.4rem; text-align: center; color: #ffffff; line-height: 1.445; background: url('../img/bg_pride_link.png') no-repeat center; background-size: 100%; display: block; padding-top: 5.4rem; height: 22.2rem; font-size: 1.8rem;}
+.pride .pride-newsletter .newsletter-list ul li a strong {font-weight: 700;}
+.pride .pride-sustainability {margin-top: 19rem;}
+.pride .pride-sustainability > .tit {font-size: 4rem; text-align: center; color: #5e5d5c; font-weight: 700; line-height: 1.45;}
+.pride .pride-sustainability > .tit .year {font-size: 1.6rem; line-height: 1.75; font-weight: 400; display: block;}
+.pride .pride-sustainability > .txt {font-size: 2rem; line-height: 1.7; margin-top: 5rem; text-align: center;}
+.pride .pride-sustainability .sustainability-list {margin-top: 14rem;}
+.pride .pride-sustainability .sustainability-list ul {border-top: 1px solid #717272;}
+.pride .pride-sustainability .sustainability-list ul li {border-bottom: 1px dashed #949392; padding: 4.2rem 0; display: flex; align-items: flex-start;}
+.pride .pride-sustainability .sustainability-list ul li .logo-area {width: 38rem;}
+.pride .pride-sustainability .sustainability-list ul li .txt-area {flex: 1 0;}
+.pride .pride-sustainability .sustainability-list ul li .txt-area dl {display: flex; align-items: flex-end; justify-content: space-between; font-size: 1.7rem; line-height: 1.648; color: #5e5d5c}
+.pride .pride-sustainability .sustainability-list .civil-area {margin-top: 5rem; position: relative;}
+.pride .pride-sustainability .sustainability-list .civil-area .tit {text-align: center; font-size: 1.7rem; line-height: 1; color: #5e5d5c;}
+.pride .pride-sustainability .sustainability-list .civil-area .unit {position: absolute; right: 0; top: 0; font-size: 1.7rem; line-height: 1; color: #5e5d5c;}
+.pride .pride-sustainability .sustainability-list .civil-area img {margin: 4rem auto 0;}
+
+/* 교육(Promise) */
+.promise {padding-bottom: 16.5rem;}
+.promise .headline {/*height: 110.4rem;*/ background: url('../img/bg_promise_headline.png') no-repeat center top; background-size: 100% 100%; padding-top: 17.5rem;}
+.promise .headline .txt {text-align: center; font-size: 2rem; line-height: 1.7; color: #595757;}
+.promise .headline img {margin-top: 3.7rem; max-width: 110.2rem; position: relative; left: 50%; transform: translateX(-50%)}
+.promise .division {padding-top: 10rem; padding-bottom: 10rem; position: relative;}
+.promise .division + .division > .inner::before {max-width: 82rem; height: 1px; background: #5e5d5c; left: 50%; top: 0; transform: translateX(-50%); content: ""; position: absolute; width: 100%;}
+.promise .division .title-area .tit {font-size: 2rem; line-height: 1.3; margin-top: 4.5rem; color: #b72654; font-weight: 700;}
+.promise .division .title-area .txt {font-size: 1.7rem; line-height: 1.648; margin-top: 3rem; color: #b72654;}
+.promise .division > .inner {margin-top: 9rem;}
+.promise .division > .inner > div + div {border-top: 1px dashed #949392; margin-top: 4.5rem; padding-top: 4.5rem;}
+.promise .division > .inner > div > .tit {font-size: 3rem; line-height: 1.2667; font-weight: 700; color: #595757;}
+.promise .division > .inner > div > .tit span {font-size: 1.8rem; display: inline-block; color: #595757; font-weight: 400; margin-left: 0.4rem}
+.promise .division > .inner > div > .tit + .sub-tit {margin-top: 4rem}
+.promise .division > .inner > div .sub-tit {line-height: 1.556; font-size: 1.8rem; color: #203f69; font-weight: 700;}
+.promise .division > .inner > div .sub-tit + div {margin-top: 1.5rem;}
+
+.promise .job-area .cont {position: relative;}
+.promise .job-area .cont::after {content: ""; display: block; clear: both;}
+.promise .job-area .cont .deco {position: absolute;}
+.promise .job-area .cont + .sub-tit {margin-top: 4.5rem;}
+.promise .job-area .cont:first-of-type .deco {right: 0; top: -6.5rem; width: 16.2rem; height: 16.2rem; border-radius: 50%; background: #b72654; text-align: center; color: #ffffff; display: flex; align-items: center; justify-content: center;}
+.promise .job-area .cont:first-of-type .deco p {font-size: 1.7rem; line-height: 1.353;}
+.promise .job-area .cont:first-of-type .deco p strong {display: block; line-height: 1.4; font-size: 2rem; text-decoration: underline; font-weight: 700;}
+.promise .job-area .cont:nth-of-type(2) img {float: left;}
+.promise .job-area .cont:nth-of-type(2) img + img {margin-left: 8rem}
+.promise .job-area .cont:nth-of-type(2) .deco {right: 0; bottom: -11.8rem; }
+.promise .job-area .cont:nth-of-type(2) .deco a {width: 12.8rem; height: 15.6rem; background: url('../img/bg_promise_link.png') no-repeat center; background-size: 100%; font-size: 1.7rem; color: #ffffff; line-height: 1; padding-top: 3.8rem; text-align: center; display: block; display: block;}
+.promise .job-area .cont:nth-of-type(2) .deco a::before {content: ""; width: 10.5rem; height: 12.6rem; background: url('../img/deco_promise02.png') no-repeat center; background-size: 100%; position: absolute; top: -11.2rem; left: 50%; transform: translateX(-50%);}
+
+.promise .talent-area .cont {margin-top: 3.5rem; display: flex; flex-wrap: wrap; gap: 5rem 0; align-items: stretch;}
+.promise .talent-area .cont dl {float: left; width: 50%;}
+.promise .talent-area .cont dl dt {font-weight: 700; color: #203f69; font-size: 3rem; line-height: 0.93;}
+.promise .talent-area .cont dl dt strong {font-size: 10rem; display: inline-block; line-height: 0.93;}
+.promise .talent-area .cont dl dt span {font-size: 10rem; display: inline-block; line-height: 0; vertical-align: 2rem;}
+.promise .talent-area .cont dl dd .txt01 {font-size: 1.7rem; line-height: 1.648; font-weight: 700;}
+.promise .talent-area .cont dl dd .txt01 span {font-weight: 400;}
+.promise .talent-area .cont dl dd .txt02 {font-size: 1.7rem; line-height: 1.648;}
+
+.promise .result-area .result-list {margin-top: 4rem; display: flex; align-items: stretch; justify-content: space-between; flex-wrap: wrap;}
+.promise .result-area .result-list dl {padding-left: 9rem; background-repeat: no-repeat; background-position: left top; background-size: 6.5rem; margin-top: 3.5rem;}
+.promise .result-area .result-list dl:nth-child(odd) {width: 50%; flex: none;}
+.promise .result-area .result-list dl:nth-child(even) {min-width: 35.5rem;}
+.promise .result-area .result-list dl:nth-child(-n + 2) {margin-top: 0;}
+.promise .result-area .result-list dl:nth-child(1) {background-image: url('../img/img_promise04.png');}
+.promise .result-area .result-list dl:nth-child(2) {background-image: url('../img/img_promise05.png');}
+.promise .result-area .result-list dl:nth-child(3) {background-image: url('../img/img_promise06.png');}
+.promise .result-area .result-list dl:nth-child(4) {background-image: url('../img/img_promise07.png');}
+.promise .result-area .result-list dl dt {font-size: 1.8rem; font-weight: 700; color: #203f69; line-height: 1.2667;}
+.promise .result-area .result-list dl dd {margin-top: 0.8rem;}
+.promise .result-area .result-list dl dd p {font-size: 1.8rem; line-height: 1.83334; color: #5e5d5c; font-weight: 700;}
+.promise .result-area .result-list dl dd p strong {font-size: 3rem; line-height: 1.1; display: inline-block;}
+.promise .result-area .result-best {position: relative; display: flex; align-items: flex-end; justify-content: flex-start; margin-top: 1.5rem; color: #203f69; font-weight: 700; padding-bottom: 4.5rem; width: fit-content}
+.promise .result-area .result-best::after {content: ""; display: block; position: absolute; right: -16.5rem; bottom: 0; width: 9.7rem; height: 9rem; background: url('../img/deco_promise01.png') no-repeat center; background-size: 100%;}
+.promise .result-area .result-best .rank {font-size: 3rem; line-height: 1; flex: none; width: 9rem; text-align: left; letter-spacing: -0.15em;}
+.promise .result-area .result-best .rank strong {font-size: 10rem; line-height: 1; display: inline-block;}
+.promise .result-area .result-best .txt {padding-bottom: 1rem; line-height: 1.556; font-size: 1.8rem;}
+
+.promise .result-area .result-global {border-top: 1px dashed #949392; padding-top: 4.5rem;}
+.promise .result-area .result-global > .tit {font-size: 3rem; line-height: 1.2667; font-weight: 700; color: #595757;}
+.promise .result-area .result-global ul {margin-top: 4rem}
+.promise .result-area .result-global ul li + li {margin-top: 2.8rem;}
+.promise .result-area .result-global ul li .tit {font-size: 1.8rem; line-height: 1.556; font-weight: 700; color: #203f69;}
+.promise .result-area .result-global ul li .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c;}
+.promise .result-area .result-global ul li .manager {font-size: 1.5rem; line-height: 1.867; color: #5e5d5c;}
+
+.promise .department-area::after {display: block; clear: both; content: "";}
+.promise .department-area .tit {width: 100%; float: left; margin-bottom: 4rem;}
+.promise .department-area .article {width: 30rem; float: left;}
+.promise .department-area .article ul li {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c;}
+
+.promise .edu-area .edu-list {margin-top: 3.6rem;}
+.promise .edu-area .edu-list ul {display: flex; align-items: stretch; justify-content: space-between; flex-wrap: wrap;}
+.promise .edu-area .edu-list ul li {display: flex; align-items: center; justify-content: flex-start; margin-top: 2.4rem;}
+.promise .edu-area .edu-list ul li:nth-child(1){order: 1; width: 50%; flex: none; margin-top: 0}
+.promise .edu-area .edu-list ul li:nth-child(2){order: 3; width: 50%; flex: none;}
+.promise .edu-area .edu-list ul li:nth-child(3){order: 2; width: 36rem; flex: none; margin-top: 0}
+.promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 36rem; flex: none;}
+/* .promise .edu-area .edu-list ul li:nth-child(odd) {} */
+.promise .edu-area .edu-list ul li:nth-child(even) {min-width: 35.5rem;}
+.promise .edu-area .edu-list ul li:nth-child(1) {margin-top: 0;}
+.promise .edu-area .edu-list ul li .num {width: 5.5rem; font-size: 6rem; line-height: 1; font-weight: 700; color: #203f69;}
+.promise .edu-area .edu-list ul li .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c;}
+.promise .edu-area .edu-list ul li .txt strong {font-weight: 700;}
+
+.promise .volunteer-area .graph {margin-top: 4.5rem; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 2rem 0}
+.promise .volunteer-area .graph img:last-child {margin-bottom: 1.8rem;}
+
+.promise .img-international {margin-top: 9.5rem;}
+
+.promise .international-area img {margin-top: 4.5rem;}
+
+.promise .interact-area {position: relative;}
+.promise .interact-area dl + dl {margin-top: 2.8rem;}
+.promise .interact-area dl dt {font-size: 1.8rem; color: #203f69; line-height: 1.556; font-weight: 700}
+.promise .interact-area dl dd {font-size: 1.7rem; color: #5e5d5c; line-height: 1.648;}
+.promise .interact-area .deco {position: absolute; right: 0; bottom: -3.5rem;}
+.promise .interact-area .deco a {display: block; width: 12.8rem; height: 15.6rem; background: url('../img/bg_promise_link.png') no-repeat center; background-size: 100%; color: #ffffff; text-align: center; font-size: 1.7rem; padding-top: 3.5rem;}
+.promise .interact-area .deco a::before {content: ""; width: 10.5rem; height: 12.6rem; background: url('../img/deco_promise02.png') no-repeat center; background-size: 100%; position: absolute; right: 0.5rem; top: -11.2rem;}
+
+.promise .researcher-area {margin-top: 9.5rem; position: relative;}
+.promise .researcher-area ul {display: flex; align-items: stretch; justify-content: flex-start; flex-wrap: wrap; gap: 5.2rem 3rem;}
+.promise .researcher-area ul li {width: calc(33.334% - 2rem);}
+.promise .researcher-area ul li img {width: 13.3rem; height: 16.6rem;}
+.promise .researcher-area ul li .name {margin-top: 2.4rem; font-weight: 700; color: #203f69; font-size: 1.7rem; line-height: 1.648; word-break: keep-all;}
+.promise .researcher-area ul li .txt {color: #5e5d5c; font-size: 1.7rem; line-height: 1.648; word-break: keep-all;}
+.promise .researcher-area .deco {position: absolute; right: 0; bottom: 8.2rem;}
+.promise .researcher-area .deco a {width: 12.8rem; height: 15.6rem; color: #ffffff; text-align: center; font-size: 1.7rem; line-height: 1.353; background: url('../img/bg_promise_link.png') no-repeat center; background-size: 100%; display: block; padding-top: 2rem; position: relative;}
+.promise .researcher-area .deco a::before {content: ""; width: 14.2rem; height: 13rem; background: url('../img/deco_promise03.png') no-repeat center; background-size: 100%; position: absolute; right: -0.8rem; top: -12.3rem;}
+
+/* 총장인사말(President) */
+.president {padding-top: 13.7rem;}
+.president .headline .container {background: url('../img/img_president.png') no-repeat left bottom; background-size: 37.5rem; padding-top: 3.5rem; height: 45.6rem;}
+.president .headline .txt-area {padding-left: 45.5rem;}
+.president .headline .txt-area .txt {padding-left: 1.5rem; font-size: 2rem; line-height: 1.7; color: #5e5d5c; font-weight: 500;}
+.president .headline .txt-area img {margin-top: 3rem; width: 29.5rem;}
+.president .headline .txt-area .sign {margin-top: 16.3rem; font-size: 1.4rem; line-height: 1.286; padding-left: 1.5rem; padding-right: 15.5rem; padding-top: 0.6rem; background: url('../img/img_president_sign.png') no-repeat right center; background-size: 13.2rem; width: fit-content}
+.president .content {background-color: #eeeeee; padding-top: 9.2rem; padding-bottom: 19.2rem;}
+.president .content .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c; word-break: keep-all;}
+
+/* 학업(Academics) */
+.academics {padding-bottom: 19rem; background: url('../img/bg_academics02.png') no-repeat calc(50% + 23.4rem) bottom; background-size: 86.8rem;}
+.academics .headline {background: url('../img/bg_academics_headline.png') no-repeat center top; padding-top: 18rem; height: 68.6rem; text-align: center;}
+.academics .headline .tit {font-size: 4rem; line-height: 1.15; color: #ffffff; font-weight: 700;}
+.academics .headline .tit br {display: none;}
+.academics .headline .txt {font-size: 2rem; color: #ffffff; font-weight: 500; margin-top: 1rem;}
+.academics .division {padding-top: 2rem;}
+.academics .headline + .division {padding-top: 9.5rem;}
+.academics > div > .container > .inner > .tit,
+.academics > div > .container > .inner > .tit-area > .tit {font-size: 3rem; font-weight: 700; color: #203f69; font-weight: 700; line-height: 1.2667;}
+.academics > div > .container > .inner > .tit + *:not(.cnt-area),
+.academics > div > .container > .inner > .tit-area + *:not(.cnt-area) {margin-top: 4rem;}
+.academics > div > .container > .inner > .tit + .cnt-area,
+.academics > div > .container > .inner > .tit-area + .cnt-area {margin-top: 4.5rem;}
+.academics .cnt-area {border-top: 1px solid #5e5d5c;  border-bottom: 1px dashed #8e8d8d; padding: 4.5rem 0}
+.academics .cnt-area ul {display: flex; align-items: flex-start; justify-content: space-between;}
+.academics .cnt-area ul li {text-align: center;}
+.academics .cnt-area ul li .cnt {font-size: 1.8rem; line-height: 1; color: #203f69; font-weight: 700;}
+.academics .cnt-area ul li .cnt strong {font-size: 6rem; line-height: 1; display: inline-block;}
+.academics .cnt-area ul li .tit {font-size: 1.8rem; line-height: 1.223; font-weight: 700; color: #203f69;}
+.academics .cnt-area ul li .tit span {display: inline-block; font-size: 1.5rem; line-height: 1.4667; font-weight: 400;}
+.academics .cnt-area ul li .txt {display: inline-block; font-size: 1.5rem; line-height: 1.4667; font-weight: 400;color: #203f69;}
+.academics .headline + .division .cnt-area ul li {text-align: right;}
+.academics .txt-lesson {color: #595757; font-size: 1.7rem; line-height: 1.648;}
+
+.academics .college-area {padding: 4.5rem 0 6.5rem;}
+.academics .college-area dl + dl {margin-top: 3rem;}
+.academics .college-area dl dt {display: flex; align-items: center; justify-content: flex-start ; font-size: 1.8rem; color: #1d3f69;}
+.academics .college-area dl dt .kor {font-weight: 700;}
+.academics .college-area dl dt .eng {margin-left: 1rem;}
+.academics .college-area dl dt .btn-link {margin-left: 2rem; display: block; width: 2.6rem; height: 2.6rem; background: url('../img/ic_academics_link_sm.png') no-repeat center; background-size: 100%;}
+.academics .college-area dl dd {padding-top: 0.2rem;}
+.academics .college-area dl dd .txt {color: #595757; font-size: 1.7rem; line-height: 1.648;}
+.academics .college-area dl dd .txt span {display: inline-block; font-size: 1.7rem; line-height: 1.648;}
+.academics .college-area dl dd .txt .txt-blue {color: #0063af;}
+.academics .college-area dl dd .txt-comment {color: #0063af; font-size: 1.5rem; width: fit-content; box-shadow: inset 0px -1px 0px 0px #0063af;}
+
+.academics .tit-area {position: relative;}
+.academics .tit-area::after {display: block; clear: both; content: "";}
+.academics .tit-area::before {content: ""; width: 13.9rem; height: 14rem; background: url('../img/deco_academics.png') no-repeat center; background-size: 100%; position: absolute; right: -0.7rem; top: -6.7rem;}
+.academics .tit-area .tit {float: left;}
+.academics .tit-area .btn-link {float: left; width: 4rem; height: 4rem; border-radius: 50%; background: url('../img/ic_academics_link_lg.png') no-repeat center; background-size: 100%; margin-left: 2rem;}
+.academics .intro-area {display: flex; align-items: flex-start; gap: 0 8.5rem; margin-top: 4.5rem; padding-bottom: 9.5rem;}
+.academics .intro-area .txt {flex: 1 0; line-height: 1.556; font-weight: 700; font-size: 1.8rem; color: #203f69;}
+.academics .intro-area ul {flex: none;}
+
+.academics .img-graduate {margin-top: 2rem;}
+
+.academics .special-graduate {margin-top: 9.5rem}
+
+
+/* 역사(History) */
+.history {padding-top: 18.4rem; padding-bottom: 19rem;}
+.history .healine .tit {text-align: center; font-size: 4rem; font-weight: 700; color: #5e5d5c; line-height: 1;}
+.history .history-list {margin-top: 9rem;}
+.history .history-list ul li {display: flex; align-items: flex-start; gap: 3rem 6.5rem;}
+.history .history-list ul li + li {margin-top: 7rem;}
+.history .history-list ul li .visual {flex: none; width: 34.5rem;}
+.history .history-list ul li .visual .top {display: flex; justify-content: space-between;}
+.history .history-list ul li .visual .top .symbol {display: flex; align-items: flex-end; justify-content: flex-start; gap: 0 1rem;}
+.history .history-list ul li .visual .top .symbol .kor {font-size: 3rem; line-height: 1.2; font-weight: 700; color: #bc1c55;}
+.history .history-list ul li .visual .top .symbol .hieroglyph {font-size: 1.8rem; color: #595757;}
+.history .history-list ul li .visual .top .year {font-size: 3rem; font-weight: 700; color: #bc1c55; line-height: 1.2;}
+.history .history-list ul li .visual img {margin-top: 1.5rem;}
+.history .history-list ul li .cont .tit {font-size: 1.8rem; font-weight: 700; line-height: 1.5556; color: #1d3f69;}
+.history .history-list ul li .cont .txt {font-size: 1.8rem; font-weight: 700; line-height: 1.5556; color: #595757;}
+.history .history-list ul li .cont .list {margin-top: 3rem;}
+.history .history-list ul li .cont .list dl {display: flex; justify-content: flex-start; align-items: flex-start;}
+.history .history-list ul li .cont .list dl dt {flex: none; width: 14.5rem; font-size: 1.7rem; line-height: 1.648; color: #595757;}
+.history .history-list ul li .cont .list dl dd {flex: 1 0; font-size: 1.7rem; line-height: 1.648; color: #595757;}
+
+@media screen and (max-width: 1080px) {
+    /* 캠퍼스(Campus) */
+    .campus {background: url('../img/bg_campus.png') no-repeat calc(50% - 23rem) 21.3rem; background-size: 60.9rem;}
+    .campus .healine .campus-view {margin-right: 0; width: 34rem;}
+}
+
+@media screen and (max-width: 960px) {
+    /* 프롤로그(Prologue) */
+    .prologue {background: url('../img/bg_prologue_mo.png') no-repeat center; background-size: cover; }
+    .prologue .txt-tail img {width: 24.8rem;}
+
+    /* 비전(Vision) */
+    .vision .container {background-size: auto 127.9rem;}
+    .vision .txt-summary br {display: none;}
+    .vision .vision-info {padding-left: 2rem; padding-right: 2rem;}
+
+    /* 캠퍼스(Campus) */
+    .campus .campus-organization .member dl {width: 100%;}
+    .campus .campus-organization .member dl:nth-child(even) {border-left: 0}
+    .campus .campus-organization .member dl:nth-child(-n + 2) {border-top: 1px solid #5e5d5c;}
+    .campus .campus-organization .member dl:first-child {border-top: 0; padding-top: 0;}
+    .campus .campus-organization .member dl:nth-last-child(2),
+    .campus .campus-organization .member dl:nth-last-child(1) { padding-bottom: 4rem;}
+    .campus .campus-organization .member dl:nth-last-child(1) {border-bottom: 1px solid #5e5d5c;}
+
+    /* 성과(Pride) */
+    .pride .headline .txt br {display: none;}
+    .pride .pride-fruitage ul {background: url('../img/deco_pride03.png') no-repeat right bottom 26rem; background-size: 24rem;}
+    .pride .pride-fruitage ul li {flex-direction: column;}
+    .pride .pride-fruitage ul li:nth-child(2) {background: url('../img/deco_pride01.png') no-repeat right top 3.6rem; background-size: 12.6rem;}
+    .pride .pride-fruitage ul li + li {padding-top: 4rem;}
+    .pride .pride-fruitage ul li > .year {border-bottom: 0; padding-top: 0; padding-bottom: 0;}
+    .pride .pride-fruitage ul li > .cont,
+    .pride .pride-fruitage ul li > .cont:has(.article) .article {flex-direction: column;}
+    .pride .pride-fruitage ul li:nth-last-child(2) > .cont .rank {display: none;}
+    .pride .pride-newsletter .newsletter-list ul {flex-wrap: wrap;}
+    .pride .pride-sustainability > .txt br {display: none;}
+    .pride .pride-sustainability .sustainability-list ul li {flex-direction: column;}
+    .pride .pride-sustainability .sustainability-list ul li .logo-area {width: 100%;}
+    .pride .pride-sustainability .sustainability-list ul li .logo-area img {margin: 0 auto;}
+    .pride .pride-sustainability .sustainability-list ul li .txt-area {width: 100%; padding-top: 3rem;}
+
+    /* 교육(Promise) */
+    .promise .headline img {max-width: calc(100% + 2.1rem);}
+    .promise .division + .division > .inner::before {width: 100%;}
+
+    .promise .job-area .cont:first-of-type .deco {top: -18rem;}
+    .promise .job-area .cont:nth-of-type(2) .img-area {display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 4rem 8rem;}
+    .promise .job-area .cont:nth-of-type(2) .deco {bottom: -37rem; }
+    .promise .job-area .cont:nth-of-type(2) img + img {margin-left: 0;}
+
+    .promise .talent-area .cont {flex-direction: column;}
+    .promise .talent-area .cont dl {float: none; width: 100%;}
+    .promise .talent-area .cont dl:nth-child(1) {order: 1;}
+    .promise .talent-area .cont dl:nth-child(2) {order: 3;}
+    .promise .talent-area .cont dl:nth-child(3) {order: 2;}
+    .promise .talent-area .cont dl:nth-child(4) {order: 4;}
+    
+    .promise .result-area .result-list dl:nth-child(odd) {width: 100%; flex: none;}
+    .promise .result-area .result-list dl:nth-child(even) {min-width: 100%;}
+    .promise .result-area .result-list dl:nth-child(-n + 2) {margin-top: 3.5rem;}
+    .promise .result-area .result-list dl dt {font-size: 1.8rem;}
+    
+    .promise .department-area .article {width: 50%;}
+
+    .promise .volunteer-area .graph img:last-child {margin-bottom: 0;}
+    
+    .promise .interact-area .deco {bottom: 4rem;}
+
+    .promise .researcher-area ul {gap: 2.6rem 0rem;}
+    .promise .researcher-area ul li {width: 100%; position: relative; padding-left: 15.7rem; min-height: 16.6rem;}
+    .promise .researcher-area ul li img {position: absolute; left: 0; top: 0;}
+    .promise .researcher-area ul li .name {margin-top: 0;}
+    .promise .researcher-area .deco {bottom: -21rem;}
+    
+    .promise .edu-area .edu-list ul li:nth-child(-n + 2) {margin-top: 2.4rem;}
+    .promise .edu-area .edu-list ul li:nth-child(1){order: 1; width: 100%;}
+    .promise .edu-area .edu-list ul li:nth-child(2){order: 2; width: 100%;}
+    .promise .edu-area .edu-list ul li:nth-child(3){order: 3; margin-top: 2.4rem; width: 100%;}
+    .promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 100%;}
+
+    /* 총장인사말(President) */
+    .president {padding-top: 10rem;}
+    /* .president .headline .container {height: 54.5rem;} */
+    .president .headline .txt-area {padding-left: 46%;}
+    /* .president .headline .txt-area .txt {padding-left: 1.5rem; font-size: 2rem; line-height: 1.7; color: #5e5d5c; font-weight: 500;}
+    .president .headline .txt-area img {margin-top: 3rem; width: 29.5rem;} */
+    .president .headline .txt-area .sign {background: url('../img/img_president_sign.png') no-repeat left bottom; background-size: 13.2rem; padding-right: 0; padding-bottom: 3rem; padding-top: 0; margin-top: 13.3rem; margin-left: auto; padding-left: 0;}
+    .president .content {background-color: #eeeeee; padding-top: 9.2rem; padding-bottom: 19.2rem;}
+    .president .content .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c; word-break: keep-all;}
+
+    /**/
+    .academics .headline {background-size: auto 100%;}
+    .academics .headline .tit br {display: block;}
+
+    /* 역사(History) */
+    .history .history-list ul li {flex-direction: column;}
+}
+@media screen and (max-width: 640px) {
+    /* 교육(Promise) */
+    .promise .result-area .result-best {width: 100%; flex-direction: column; align-items: flex-start;}
+    .promise .result-area .result-best::after {left: auto; right: 0;}
+
+    /* 학업(Academics) */
+    .academics .cnt-area ul {flex-wrap: wrap; flex-direction: column; height: 19.5rem; justify-content: flex-start; gap: 3rem 4rem;}
+    .academics .cnt-area ul li {width: 50%; text-align: left;}
+    .academics .headline + .division .cnt-area ul {height: 34rem;}
+    .academics .headline + .division .cnt-area ul li {text-align: left;}
+    .academics .headline + .division .cnt-area ul li .tit {margin-top: 1rem;}
+
+    .academics .college-area dl dt {flex-wrap: wrap;}
+    .academics .college-area dl dt .kor {width: 100%;}
+    .academics .college-area dl dt .eng {margin-left: 0;}
+    
+    /* 역사(History) */
+    .history .history-list ul li .visual,
+    .history .history-list ul li .cont {width: 100%;}
+    .history .history-list ul li .visual img {width: 100%;}
+
+}
