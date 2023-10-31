@@ -422,14 +422,22 @@
 
     /* 캠퍼스(Campus) */
     .campus {background: url('../img/bg_campus.png') no-repeat calc(50% - 16rem) 22.4rem; background-size: 58.7rem;}
+    .campus .healine .txt br {display: none;}
     .campus .healine .campus-view {width: 29.4rem; margin-top: 24rem;}
     .campus .campus-info {margin-top: 4.5rem;}
     .campus .campus-appendage ul {width: 100%; flex-wrap: wrap; flex-direction: row; height: auto;}
     .campus .campus-appendage ul li {width: 50%}
 
+    /* 성과(Pride) */
+.pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2rem;}
+
     /* 학업(Academics) */
-    .academics .cnt-area ul {flex-wrap: wrap; flex-direction: column; height: 19.5rem; justify-content: flex-start; gap: 3rem 2rem;}
-    .academics .cnt-area ul li {width: calc(50% - 0.5rem); text-align: left;}
+    .academics .cnt-area ul {flex-wrap: wrap; justify-content: flex-start; gap: 3rem 2rem;}
+    .academics .cnt-area ul li {width: calc(50% - 1rem); text-align: left;}
+    .academics .cnt-area ul li:nth-child(1) {order: 1;}
+    .academics .cnt-area ul li:nth-child(2) {order: 3;}
+    .academics .cnt-area ul li:nth-child(3) {order: 2;}
+    .academics .cnt-area ul li:nth-child(4) {order: 4;}
     .academics .headline + .division .cnt-area ul {height: 34rem;}
     .academics .headline + .division .cnt-area ul li {text-align: left;}
     .academics .headline + .division .cnt-area ul li .tit {margin-top: 1rem;}
