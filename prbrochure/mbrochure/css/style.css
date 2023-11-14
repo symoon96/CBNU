@@ -15,6 +15,9 @@
 .vision .vision-info .txt-info {font-size: 3rem; line-height: 1; color: #ffffff; font-weight: 700; text-align: center;}
 .vision .vision-info img {margin: 9.7rem auto 0; width: 77.3rem;}
 
+[lang="zh"] .vision .vision-info {padding-bottom: 5.2rem;}
+[lang="zh"] .vision .vision-info img {margin: 10.7rem auto 0; width: 83.2rem;}
+
 /* 캠퍼스(Campus) */
 .campus {padding-top: 17rem; background: url('../img/bg_campus.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
 .campus .healine .tit {text-align: center; font-size: 4rem; line-height: 1.45; color: #5e5d5c; font-weight: 700;}

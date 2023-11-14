@@ -72,6 +72,9 @@
 #footer .university .info .sns ul li .btn-sns-blog {background-image: url('../img/ic_sns_blog.png');}
 #footer .university .info .copyright {margin-top: 1.5rem;}
 
+[lang="zh"] #footer .university .logo {background: url('../img/logo_chn.png') no-repeat center; background-size: 100%;}
+[lang="zh"] #footer .university .info .family dl dt {width: 13rem;}
+
 .link{}
 
 .family{}
