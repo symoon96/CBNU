@@ -119,6 +119,7 @@
 .pride .pride-sustainability .sustainability-list .civil-area .unit {position: absolute; right: 0; top: 0; font-size: 1.7rem; line-height: 1; color: #5e5d5c;}
 .pride .pride-sustainability .sustainability-list .civil-area img {margin: 4rem auto 0;}
 
+[lang="zh"] .pride .headline .txt {word-break: break-all;}
 [lang="zh"] .pride .pride-sustainability .sustainability-list ul li .txt-area dl {font-size: 1.7rem;}
 [lang="zh"] .pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2.5rem;}
 
@@ -231,6 +232,8 @@
 .promise .researcher-area .deco {position: absolute; right: 0; bottom: 8.2rem;}
 .promise .researcher-area .deco a {width: 12.8rem; height: 15.6rem; color: #ffffff; text-align: center; font-size: 1.7rem; line-height: 1.353; background: url('../img/bg_promise_link.png') no-repeat center; background-size: 100%; display: block; padding-top: 2rem; position: relative;}
 .promise .researcher-area .deco a::before {content: ""; width: 14.2rem; height: 13rem; background: url('../img/deco_promise03.png') no-repeat center; background-size: 100%; position: absolute; right: -0.8rem; top: -12.3rem;}
+
+[lang="zh"] .promise .division .title-area .txt {word-break: break-all;}
 
 [lang="zh"] .promise .job-area .cont:first-of-type .deco p strong {text-decoration: none; border-bottom: 2px solid #ffffff; line-height: 1.8; width: fit-content; margin: 0 auto 1.5rem;}
 
