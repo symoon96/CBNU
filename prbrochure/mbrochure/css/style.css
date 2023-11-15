@@ -67,6 +67,10 @@
 .campus .campus-organization .member dl dd .txt {margin-top: 3rem; text-align: center; color: #bc1c55; line-height: 1; font-weight: 700; font-size: 3rem;}
 .campus .campus-organization .member dl dd .txt strong {font-size: 7rem; line-height: 1; display: inline-block;}
 
+[lang="zh"] .campus {padding-top: 17rem; background: url('../img/bg_campus_chn.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
+[lang="zh"] .campus .healine .campus-view .btn-view span {height: 3rem; width: 31.6rem;}
+[lang="zh"] .campus .campus-appendage ul {height: 33.7rem;}
+
 /* 성과(Pride) */
 .pride {padding-top: 17rem; padding-bottom: 20rem;}
 .pride .headline .tit {font-size: 4rem; text-align: center; color: #5e5d5c; font-weight: 700; line-height: 1.45;}
@@ -114,6 +118,9 @@
 .pride .pride-sustainability .sustainability-list .civil-area .tit {text-align: center; font-size: 1.7rem; line-height: 1; color: #5e5d5c;}
 .pride .pride-sustainability .sustainability-list .civil-area .unit {position: absolute; right: 0; top: 0; font-size: 1.7rem; line-height: 1; color: #5e5d5c;}
 .pride .pride-sustainability .sustainability-list .civil-area img {margin: 4rem auto 0;}
+
+[lang="zh"] .pride .pride-sustainability .sustainability-list ul li .txt-area dl {font-size: 1.7rem;}
+[lang="zh"] .pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2.5rem;}
 
 /* 교육(Promise) */
 .promise {padding-bottom: 16.5rem;}
@@ -198,7 +205,7 @@
 .promise .edu-area .edu-list ul li:nth-child(1) {margin-top: 0;}
 .promise .edu-area .edu-list ul li .num {width: 5.5rem; font-size: 6rem; line-height: 1; font-weight: 700; color: #203f69;}
 .promise .edu-area .edu-list ul li .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c;}
-.promise .edu-area .edu-list ul li .txt strong {font-weight: 700;}
+.promise .edu-area .edu-list ul li .txt strong {font-weight: 700; display: inline-block;}
 
 .promise .volunteer-area .graph {margin-top: 4.5rem; display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 2rem 0}
 .promise .volunteer-area .graph img:last-child {margin-bottom: 1.8rem;}
@@ -225,6 +232,17 @@
 .promise .researcher-area .deco a {width: 12.8rem; height: 15.6rem; color: #ffffff; text-align: center; font-size: 1.7rem; line-height: 1.353; background: url('../img/bg_promise_link.png') no-repeat center; background-size: 100%; display: block; padding-top: 2rem; position: relative;}
 .promise .researcher-area .deco a::before {content: ""; width: 14.2rem; height: 13rem; background: url('../img/deco_promise03.png') no-repeat center; background-size: 100%; position: absolute; right: -0.8rem; top: -12.3rem;}
 
+[lang="zh"] .promise .job-area .cont:first-of-type .deco p strong {text-decoration: none; border-bottom: 2px solid #ffffff; line-height: 1.8; width: fit-content; margin: 0 auto 1.5rem;}
+
+[lang="zh"] .promise .result-area .result-list dl:nth-child(odd) {width: calc(100% - 41.5rem); flex: none;}
+[lang="zh"] .promise .result-area .result-list dl:nth-child(even) {min-width: 41.5rem;}
+
+[lang="zh"] .promise .edu-area .edu-list ul li:nth-child(1){order: 1; width: calc(100% - 32.5rem); flex: none; margin-top: 0}
+[lang="zh"] .promise .edu-area .edu-list ul li:nth-child(2){order: 3; width: calc(100% - 32.5rem); flex: none;}
+[lang="zh"] .promise .edu-area .edu-list ul li:nth-child(3){order: 2; width: 32.5rem; flex: none; margin-top: 0}
+[lang="zh"] .promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 32.5rem; flex: none;}
+[lang="zh"] .promise .edu-area .edu-list ul li:nth-child(even) {min-width: 0;}
+
 /* 총장인사말(President) */
 .president {padding-top: 13.7rem;}
 .president .headline .container {background: url('../img/img_president.png') no-repeat left bottom; background-size: 37.5rem; padding-top: 3.5rem; height: 45.6rem;}
@@ -234,6 +252,9 @@
 .president .headline .txt-area .sign {margin-top: 16.3rem; font-size: 1.4rem; line-height: 1.286; padding-left: 1.5rem; padding-right: 15.5rem; padding-top: 0.6rem; background: url('../img/img_president_sign.png') no-repeat right center; background-size: 13.2rem; width: fit-content}
 .president .content {background-color: #eeeeee; padding-top: 9.2rem; padding-bottom: 19.2rem;}
 .president .content .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c; word-break: keep-all;}
+
+[lang="zh"] .president .headline .txt-area .sign {padding-right: 13.2rem; background: url('../img/img_president_sign_chn.png') no-repeat right center; background-size: 10.2rem; padding-top: 1.2rem;}
+[lang="zh"] .president .content .txt {word-break: break-all;}
 
 /* 학업(Academics) */
 .academics {padding-bottom: 19rem; background: url('../img/bg_academics02.png') no-repeat calc(50% + 23.4rem) bottom; background-size: 86.8rem;}
@@ -311,6 +332,9 @@
     .campus {background: url('../img/bg_campus.png') no-repeat calc(50% - 23rem) 21.3rem; background-size: 60.9rem;}
     .campus .healine .campus-view {margin-right: 0; width: 34rem;}
     .campus .healine .campus-view .btn-view span {width: 27.2rem;}
+
+    [lang="zh"] .campus {background: url('../img/bg_campus_chn.png') no-repeat calc(50% - 23rem) 21.3rem; background-size: 60.9rem;}
+    [lang="zh"] .campus .healine .campus-view .btn-view span {width: 29rem;}
 }
 
 @media screen and (max-width: 960px) {
@@ -322,6 +346,8 @@
     .vision .container {background-size: auto 127.9rem;}
     .vision .txt-summary br {display: none;}
     .vision .vision-info {padding-left: 2rem; padding-right: 2rem;}
+
+    [lang="zh"] .vision .txt-summary br {display: block;}
 
     /* 캠퍼스(Campus) */
     .campus .campus-organization .member dl {width: 100%;}
@@ -389,6 +415,14 @@
     .promise .edu-area .edu-list ul li:nth-child(3){order: 3; margin-top: 2.4rem; width: 100%;}
     .promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 100%;}
 
+    [lang="zh"] .promise .result-area .result-list dl:nth-child(odd) {width: 100%; flex: none;}
+    [lang="zh"] .promise .result-area .result-list dl:nth-child(even) {min-width: 100%;}
+
+    [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(1){order: 1; width: 100%;}
+    [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(2){order: 2; width: 100%;}
+    [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(3){order: 3; margin-top: 2.4rem; width: 100%;}
+    [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 100%;}
+
     /* 총장인사말(President) */
     .president {padding-top: 10rem;}
     /* .president .headline .container {height: 54.5rem;} */
@@ -398,6 +432,8 @@
     .president .headline .txt-area .sign {background: url('../img/img_president_sign.png') no-repeat left bottom; background-size: 13.2rem; padding-right: 0; padding-bottom: 3rem; padding-top: 0; margin-top: 13.3rem; margin-left: auto; padding-left: 0;}
     .president .content {background-color: #eeeeee; padding-top: 9.2rem; padding-bottom: 19.2rem;}
     .president .content .txt {font-size: 1.8rem;}
+
+    [lang="zh"] .president .headline .txt-area .sign {padding-right: 13.2rem; background: url('../img/img_president_sign_chn.png') no-repeat right bottom; background-size: 10.2rem; padding-right: 0; padding-top: 0; padding-bottom: 3.6rem}
 
     /**/
     .academics .headline {background-size: auto 100%;}
@@ -409,6 +445,8 @@
 @media screen and (max-width: 640px) {
     /* 프롤로그(Prologue) */
     .prologue .lang-list ul {gap: 0 0; justify-content: space-between;}
+
+    [lang="zh"] .vision .txt-summary br {display: none;}
 
     /* 교육(Promise) */
     .promise .division > .inner {margin-top: 18rem;}
@@ -433,8 +471,13 @@
     .campus .campus-appendage ul {width: 100%; flex-wrap: wrap; flex-direction: row; height: auto;}
     .campus .campus-appendage ul li {width: 50%}
 
+    [lang="zh"] .campus {background: url('../img/bg_campus_chn.png') no-repeat calc(50% - 16rem) 22.4rem; background-size: 58.7rem;}
+    [lang="zh"] .campus .healine .campus-view {margin-top: 27.5rem;}
+    [lang="zh"] .campus .healine .campus-view .btn-view span {width: 25rem;}
+    [lang="zh"] .campus .campus-appendage ul {height: auto;}
+
     /* 성과(Pride) */
-.pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2rem;}
+    .pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2rem;}
 
     /* 학업(Academics) */
     .academics .cnt-area ul {flex-wrap: wrap; justify-content: flex-start; gap: 3rem 2rem;}
