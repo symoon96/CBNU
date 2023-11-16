@@ -75,6 +75,11 @@
 [lang="zh"] #footer .university .logo {background: url('../img/logo_chn.png') no-repeat center; background-size: 100%;}
 [lang="zh"] #footer .university .info .family dl dt {width: 13rem;}
 
+[lang="en"] #footer .university .logo {width: 28.9rem; height: 8.2rem; background: url('../img/logo_eng.png') no-repeat center; background-size: 100%;}
+[lang="en"] #footer .university .info {font-size: 1.2rem; line-height: 1.5; width: 53.6rem;}
+[lang="en"] #footer .university .info .family dl dt {width: 9.1rem;}
+[lang="en"] #footer .university .info .copyright {font-size: 1.4rem;}
+
 .link{}
 
 .family{}
@@ -128,6 +133,9 @@
     #footer .university .info .family dl {flex-direction: column;}
     #footer .university .info .family dl + dl {margin-top: 1rem;}
     #footer .university .info .family dl dt {width: 100%;}
+
+    [lang="en"] #footer .university .info {font-size: 1.4rem; width: 100%;}
+    [lang="en"] #footer .university .info .family dl dt {width: 100%;}
 }
 
 @media screen and (max-width:960px) {

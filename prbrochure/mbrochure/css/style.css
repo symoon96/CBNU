@@ -18,6 +18,9 @@
 [lang="zh"] .vision .vision-info {padding-bottom: 5.2rem;}
 [lang="zh"] .vision .vision-info img {margin: 10.7rem auto 0; width: 83.2rem;}
 
+[lang="en"] .vision .vision-info {padding-bottom: 6rem;}
+[lang="en"] .vision .vision-info img {margin: 10rem auto 0; width: 88.5rem;}
+
 /* 캠퍼스(Campus) */
 .campus {padding-top: 17rem; background: url('../img/bg_campus.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
 .campus .healine .tit {text-align: center; font-size: 4rem; line-height: 1.45; color: #5e5d5c; font-weight: 700;}
@@ -47,7 +50,7 @@
 .campus .campus-organization .summary .tit {font-size: 3rem; line-height: 1; text-align: center; color: #b72654; margin-top: 6.2rem; font-weight: 700;}
 .campus .campus-organization .summary .txt {margin-top: 1.5rem; line-height: 1; font-size: 3rem; font-weight: 700; color: #b72654; text-align: center;}
 .campus .campus-organization .summary .txt strong {font-size: 10rem; line-height: 1; display: inline-block;}
-.campus .campus-organization .row {border-top: 1px solid #5e5d5c; display: flex; align-items: center; justify-content: space-between; padding: 4.2rem 0 4.5rem;}
+.campus .campus-organization .row {border-top: 1px solid #5e5d5c; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; padding: 4.2rem 0 4.5rem;}
 .campus .campus-organization .summary + .row {margin-top: 8.5rem;}
 .campus .campus-organization .row .col { text-align: center; }
 .campus .campus-organization .row .col::after {display: block; clear: both; content: "";}
@@ -67,9 +70,18 @@
 .campus .campus-organization .member dl dd .txt {margin-top: 3rem; text-align: center; color: #bc1c55; line-height: 1; font-weight: 700; font-size: 3rem;}
 .campus .campus-organization .member dl dd .txt strong {font-size: 7rem; line-height: 1; display: inline-block;}
 
-[lang="zh"] .campus {padding-top: 17rem; background: url('../img/bg_campus_chn.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
+[lang="zh"] .campus {background: url('../img/bg_campus_chn.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
 [lang="zh"] .campus .healine .campus-view .btn-view span {height: 3rem; width: 31.6rem;}
 [lang="zh"] .campus .campus-appendage ul {height: 33.7rem;}
+
+[lang="en"] .campus {background: url('../img/bg_campus_eng.png') no-repeat calc(50% - 26.5rem) 21.3rem; background-size: 60.9rem;}
+[lang="en"] .campus .healine .campus-view {margin-top: 17.8rem;}
+[lang="en"] .campus .healine .campus-view .btn-view span {height: 3rem; width: 31.6rem;}
+[lang="en"] .campus .campus-info ul li .text-area {max-width: 68.5rem;}
+[lang="en"] .campus .campus-appendage ul {height: 56.1rem; gap: 0 2rem;}
+[lang="en"] .campus .campus-appendage ul li {width: calc(50% - 1rem);}
+[lang="en"] .campus .campus-appendage .txt {text-align: left;}
+[lang="en"] .campus .campus-organization .summary .tit span {font-size: 2rem; display: inline-block; line-height: 1.6;}
 
 /* 성과(Pride) */
 .pride {padding-top: 17rem; padding-bottom: 20rem;}
@@ -122,6 +134,20 @@
 [lang="zh"] .pride .headline .txt {word-break: break-all;}
 [lang="zh"] .pride .pride-sustainability .sustainability-list ul li .txt-area dl {font-size: 1.7rem;}
 [lang="zh"] .pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2.5rem;}
+
+[lang="en"] .pride .pride-fruitage ul li > .cont .rank p {display: flex; align-items: flex-end; line-height: 1.0667;}
+[lang="en"] .pride .pride-fruitage ul li > .cont .rank p strong {margin-bottom: -1rem;}
+[lang="en"] .pride .pride-fruitage ul li > .year {width: 12rem;}
+[lang="en"] .pride .pride-fruitage ul li > .cont .txt-area .txt {font-size: 1.7rem;}
+[lang="en"] .pride .pride-fruitage ul li > .cont .txt-area .txt + .txt {margin-top: 3.5rem;}
+[lang="en"] .pride .pride-fruitage ul li > .cont .rank {width: 19rem;}
+[lang="en"] .pride .pride-fruitage ul li:nth-child(2) {background: url('../img/deco_pride01.png') no-repeat left 21rem; background-size: 12.6rem;}
+[lang="en"] .pride .pride-newsletter .newsletter-list ul li a {display: flex; align-items: center; justify-content: center; padding-top: 0; padding-bottom: 5.5rem; font-size: 1.7rem;}
+[lang="en"] .pride .pride-sustainability .sustainability-list ul li .logo-area {width: 26.5rem;}
+[lang="en"] .pride .pride-sustainability .sustainability-list ul li .txt-area dl {font-size: 1.7rem; gap: 0 1rem;}
+[lang="en"] .pride .pride-sustainability .sustainability-list ul li .txt-area dl dd {flex: none;}
+[lang="en"] .pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2.5rem;}
+[lang="en"] .pride .pride-sustainability .sustainability-list .civil-area .tit br {display: none;}
 
 /* 교육(Promise) */
 .promise {padding-bottom: 16.5rem;}
@@ -204,7 +230,7 @@
 /* .promise .edu-area .edu-list ul li:nth-child(odd) {} */
 .promise .edu-area .edu-list ul li:nth-child(even) {min-width: 35.5rem;}
 .promise .edu-area .edu-list ul li:nth-child(1) {margin-top: 0;}
-.promise .edu-area .edu-list ul li .num {width: 5.5rem; font-size: 6rem; line-height: 1; font-weight: 700; color: #203f69;}
+.promise .edu-area .edu-list ul li .num {width: 5.5rem; font-size: 6rem; line-height: 1; font-weight: 700; color: #203f69; flex: none;}
 .promise .edu-area .edu-list ul li .txt {font-size: 1.7rem; line-height: 1.648; color: #5e5d5c;}
 .promise .edu-area .edu-list ul li .txt strong {font-weight: 700; display: inline-block;}
 
@@ -246,6 +272,31 @@
 [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 32.5rem; flex: none;}
 [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(even) {min-width: 0;}
 
+[lang="en"] .promise .job-area .cont:first-of-type .deco p {font-size: 1.5rem;}
+[lang="en"] .promise .job-area .cont:first-of-type .deco p strong {line-height: 1.353; font-size: 1.7rem; margin-bottom: 0.5rem;}
+
+[lang="en"] .promise .talent-area .cont dl dt {font-size: 2.6rem;}
+[lang="en"] .promise .talent-area .cont dl dt strong {font-size: 8.8rem;}
+
+[lang="en"] .promise .result-area .result-list dl:nth-child(odd) {width: calc(100% - 43.5rem)}
+[lang="en"] .promise .result-area .result-list dl:nth-child(even) {width: 43.5rem;}
+[lang="en"] .promise .result-area .result-list dl dd p {font-size: 1.8rem; line-height: 1.27778; color: #5e5d5c; font-weight: 700;}
+[lang="en"] .promise .result-area .result-list dl dd p + p {margin-top: 1rem;}
+[lang="en"] .promise .result-area .result-list dl dd p strong {font-size: 3rem; line-height: 1.1; display: inline-block;}
+[lang="en"] .promise .result-area .result-best {flex-direction: column; justify-content: flex-start; align-items: flex-start; padding-bottom: 4.5rem; width: 100%}
+[lang="en"] .promise .result-area .result-best::after {display: none;}
+[lang="en"] .promise .result-area .result-best .rank {width: 100%; letter-spacing: 0;}
+
+[lang="en"] .promise .department-area .article {width: calc(50% - 2rem);}
+[lang="en"] .promise .department-area .article + .article {margin-left: 4rem}
+
+[lang="en"] .promise .edu-area .edu-list ul li {align-items: flex-start;}
+
+[lang="en"] .promise .interact-area .deco a {line-height: 1.353; padding-top: 1.8rem;}
+
+[lang="en"] .promise .researcher-area .deco a {line-height: 1.294; padding-top: 0.6rem;}
+
+
 /* 총장인사말(President) */
 .president {padding-top: 13.7rem;}
 .president .headline .container {background: url('../img/img_president.png') no-repeat left bottom; background-size: 37.5rem; padding-top: 3.5rem; height: 45.6rem;}
@@ -258,6 +309,10 @@
 
 [lang="zh"] .president .headline .txt-area .sign {padding-right: 13.2rem; background: url('../img/img_president_sign_chn.png') no-repeat right center; background-size: 10.2rem; padding-top: 1.2rem;}
 [lang="zh"] .president .content .txt {word-break: break-all;}
+
+[lang="en"] .president .headline .txt-area img {margin-top: 0; width: 41.3rem;}
+[lang="en"] .president .headline .txt-area .sign {margin-top: 14.8rem; padding-top: 7rem; background: url('../img/img_president_sign_eng.png') no-repeat left top; background-size: 26.9rem;}
+[lang="en"] .president .headline .txt-area .sign br {display: none;}
 
 /* 학업(Academics) */
 .academics {padding-bottom: 19rem; background: url('../img/bg_academics02.png') no-repeat calc(50% + 23.4rem) bottom; background-size: 86.8rem;}
@@ -294,7 +349,7 @@
 .academics .college-area dl dd .txt {color: #595757; font-size: 1.7rem; line-height: 1.648;}
 .academics .college-area dl dd .txt span {display: inline-block; font-size: 1.7rem; line-height: 1.648;}
 .academics .college-area dl dd .txt .txt-blue {color: #0063af; display: inline-block;}
-.academics .college-area dl dd .txt-comment {color: #0063af; font-size: 1.5rem; width: fit-content; box-shadow: inset 0px -1px 0px 0px #0063af;}
+.academics .college-area dl dd .txt-comment {color: #0063af; font-size: 1.5rem; display: inline; box-shadow: inset 0px -1px 0px 0px #0063af;}
 
 .academics .tit-area {position: relative;}
 .academics .tit-area::after {display: block; clear: both; content: "";}
@@ -309,6 +364,13 @@
 
 .academics .special-graduate {margin-top: 9.5rem}
 
+[lang="en"] .academics .cnt-area.graduate ul {flex-wrap: wrap; align-items: stretch;}
+[lang="en"] .academics .cnt-area.graduate ul li {display: flex; flex-direction: column; align-items: center; justify-content: center;}
+[lang="en"] .academics .cnt-area.graduate ul li:nth-child(1) {order: 1; width: 54.879%; padding-bottom: 3.5rem}
+[lang="en"] .academics .cnt-area.graduate ul li:nth-child(2) {order: 3; width: 54.879%; padding-top: 3.5rem}
+[lang="en"] .academics .cnt-area.graduate ul li:nth-child(3) {order: 2; width: 45.121%; padding-bottom: 3.5rem; border-left: 1px dashed #8e8d8d}
+[lang="en"] .academics .cnt-area.graduate ul li:nth-child(4) {order: 4; width: 45.121%; padding-top: 3.5rem; border-left: 1px dashed #8e8d8d}
+[lang="en"] .academics .intro-area {gap: 0 3.6rem;}
 
 /* 역사(History) */
 .history {padding-top: 18.4rem; padding-bottom: 19rem;}
@@ -330,6 +392,9 @@
 .history .history-list ul li .cont .list dl dt {flex: none; width: 14.5rem; font-size: 1.7rem; line-height: 1.648; color: #595757;}
 .history .history-list ul li .cont .list dl dd {flex: 1 0; font-size: 1.7rem; line-height: 1.648; color: #595757;}
 
+[lang="en"] .history .history-list ul li .cont .list dl {flex-direction: column;}
+[lang="en"] .history .history-list ul li .cont .list dl + dl {margin-top: 1rem}
+
 @media screen and (max-width: 1080px) {
     /* 캠퍼스(Campus) */
     .campus {background: url('../img/bg_campus.png') no-repeat calc(50% - 23rem) 21.3rem; background-size: 60.9rem;}
@@ -338,6 +403,9 @@
 
     [lang="zh"] .campus {background: url('../img/bg_campus_chn.png') no-repeat calc(50% - 23rem) 21.3rem; background-size: 60.9rem;}
     [lang="zh"] .campus .healine .campus-view .btn-view span {width: 29rem;}
+
+    [lang="en"] .campus {background: url('../img/bg_campus_eng.png') no-repeat calc(50% - 23rem) 21.3rem; background-size: 60.9rem;}
+    [lang="en"] .campus .healine .campus-view .btn-view span {width: 29rem;}
 }
 
 @media screen and (max-width: 960px) {
@@ -361,6 +429,12 @@
     .campus .campus-organization .member dl:nth-last-child(1) { padding-bottom: 4rem;}
     .campus .campus-organization .member dl:nth-last-child(1) {border-bottom: 1px solid #5e5d5c;}
 
+    [lang="en"] .campus .campus-organization .row .col:has(.article) {width: 100%; display: flex; justify-content: space-between; margin-bottom: 5rem;}
+    [lang="en"] .campus .campus-organization .row .col:has(.article) ~ .col {flex: 1 0;}
+    [lang="en"] .campus .campus-organization .row .col::after {display: none;}
+    [lang="en"] .campus .campus-organization .row .col .article {flex: none; flex: 1 0;}
+    [lang="en"] .campus .campus-organization .row .col .article + .article {margin-left: 0; padding-left: 0;}
+
     /* 성과(Pride) */
     .pride .headline .txt br {display: none;}
     .pride .pride-fruitage ul {background: url('../img/deco_pride03.png') no-repeat right bottom 26rem; background-size: 24rem;}
@@ -378,6 +452,9 @@
     .pride .pride-sustainability .sustainability-list ul li .logo-area {width: 100%;}
     .pride .pride-sustainability .sustainability-list ul li .logo-area img {margin: 0 auto;}
     .pride .pride-sustainability .sustainability-list ul li .txt-area {width: 100%; padding-top: 3rem;}
+
+    [lang="en"] .pride .pride-sustainability .sustainability-list ul li .logo-area {width: 100%;}
+    [lang="en"] .pride .pride-sustainability .sustainability-list .civil-area .tit br {display: block;}
 
     /* 교육(Promise) */
     .promise .headline img {max-width: calc(100% + 2.1rem);}
@@ -426,6 +503,12 @@
     [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(3){order: 3; margin-top: 2.4rem; width: 100%;}
     [lang="zh"] .promise .edu-area .edu-list ul li:nth-child(4){order: 4; width: 100%;}
 
+    [lang="en"] .promise .result-area .result-list dl:nth-child(odd) {width: 100%;}
+    [lang="en"] .promise .result-area .result-list dl:nth-child(even) {width: 100%;}
+
+    [lang="en"] .promise .department-area .article {width: 100%;}
+    [lang="en"] .promise .department-area .article + .article {margin-left: 0; margin-top: 2rem;}
+
     /* 총장인사말(President) */
     .president {padding-top: 10rem;}
     /* .president .headline .container {height: 54.5rem;} */
@@ -437,6 +520,8 @@
     .president .content .txt {font-size: 1.8rem;}
 
     [lang="zh"] .president .headline .txt-area .sign {padding-right: 13.2rem; background: url('../img/img_president_sign_chn.png') no-repeat right bottom; background-size: 10.2rem; padding-right: 0; padding-top: 0; padding-bottom: 3.6rem}
+
+    [lang="en"] .president .headline .txt-area .sign {margin-top: 11rem;}
 
     /**/
     .academics .headline {background-size: auto 100%;}
@@ -465,6 +550,9 @@
     /* 총장인사말(President) */
     .president .headline .container {background: url('../img/img_president.png') no-repeat left -5rem bottom; background-size: 37.5rem;}
 
+    [lang="en"] .president .headline .txt-area .sign {margin-top: 15.8rem; padding-top: 5.2rem; background-size: 100%;}
+    [lang="en"] .president .headline .txt-area .sign br {display: block;}
+
     /* 캠퍼스(Campus) */
     .campus {background: url('../img/bg_campus.png') no-repeat calc(50% - 16rem) 22.4rem; background-size: 58.7rem;}
     .campus .healine .txt br {display: none;}
@@ -478,6 +566,12 @@
     [lang="zh"] .campus .healine .campus-view {margin-top: 27.5rem;}
     [lang="zh"] .campus .healine .campus-view .btn-view span {width: 25rem;}
     [lang="zh"] .campus .campus-appendage ul {height: auto;}
+
+    [lang="en"] .campus {background: url('../img/bg_campus_eng.png') no-repeat calc(50% - 16rem) 30.5rem; background-size: 58.7rem;}
+    [lang="en"] .campus .healine .campus-view {margin-top: 27.5rem;}
+    [lang="en"] .campus .healine .campus-view .btn-view span {width: 25rem;}
+    [lang="en"] .campus .campus-appendage ul {height: auto; gap: 0 0;}
+    [lang="en"] .campus .campus-appendage ul li {width: 100%;}
 
     /* 성과(Pride) */
     .pride .pride-sustainability .sustainability-list .civil-area .tit {font-size: 2rem;}
@@ -496,6 +590,16 @@
     .academics .college-area dl dt {flex-wrap: wrap;}
     .academics .college-area dl dt .kor {width: 100%;}
     .academics .college-area dl dt .eng {margin-left: 0;}
+
+    [lang="en"] .academics .cnt-area.graduate ul {gap: 0;}
+    [lang="en"] .academics .cnt-area.graduate ul li:nth-child(1) {order: 1; width: 100%; padding-bottom: 0}
+    [lang="en"] .academics .cnt-area.graduate ul li:nth-child(2) {order: 2; width: 100%; padding-top: 0; margin-top: 4.5rem; padding-top: 4.5rem; border-top: 1px dashed #8e8d8d}
+    [lang="en"] .academics .cnt-area.graduate ul li:nth-child(3) {order: 3; width: 100%; padding-bottom: 0; border-left: 0; margin-top: 4.5rem; padding-top: 4.5rem; border-top: 1px dashed #8e8d8d}
+    [lang="en"] .academics .cnt-area.graduate ul li:nth-child(4) {order: 4; width: 100%; padding-top: 0; border-left: 0; margin-top: 4.5rem; padding-top: 4.5rem; border-top: 1px dashed #8e8d8d}
+    [lang="en"] .academics .intro-area {gap: 0 3.6rem;}
+
+    [lang="en"] .academics .intro-area {flex-wrap: wrap; gap: 3.6rem;}
+    [lang="en"] .academics .intro-area .txt {flex: none; width: 100%;}
     
     /* 역사(History) */
     .history .history-list ul li .visual,
