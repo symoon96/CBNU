@@ -293,7 +293,7 @@
 .academics .college-area dl dd {padding-top: 0.2rem;}
 .academics .college-area dl dd .txt {color: #595757; font-size: 1.7rem; line-height: 1.648;}
 .academics .college-area dl dd .txt span {display: inline-block; font-size: 1.7rem; line-height: 1.648;}
-.academics .college-area dl dd .txt .txt-blue {color: #0063af;}
+.academics .college-area dl dd .txt .txt-blue {color: #0063af; display: inline-block;}
 .academics .college-area dl dd .txt-comment {color: #0063af; font-size: 1.5rem; width: fit-content; box-shadow: inset 0px -1px 0px 0px #0063af;}
 
 .academics .tit-area {position: relative;}
